@@ -218,7 +218,7 @@ nav ul li a:hover {
 }
 .portrait {
   margin-top:70px;
-  width: 350; /* prev. 302 */
+  width: 320; /* prev. 302 */
   height:auto;
   position:relative;
   border-radius:20px 80px 40px;
