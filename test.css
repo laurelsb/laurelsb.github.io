@@ -171,7 +171,7 @@ nav ul li a:hover {
 /* About Me Section */
 .aboutmecontent {
   display:grid;
-  grid-template-columns: 66% 33%;
+  grid-template-columns: 50% 50%; /* prev. 66% / 33% */
   padding-top:10px;
 }
 .aboutmecontent .column1 {
