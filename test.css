@@ -189,8 +189,8 @@ nav ul li a:hover {
   padding-top:30px;
 }
 .aboutmecontent .column2 {
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 .aboutmecontent a, .aboumtmecontent a:visited {
   text-decoration: underline;
@@ -219,7 +219,6 @@ nav ul li a:hover {
 .portrait {
   margin-top:70px;
   width: 299; /* prev. 302 */
-  padding-right:10%;
   height:auto;
   position:relative;
   border-radius:20px 80px 40px;
