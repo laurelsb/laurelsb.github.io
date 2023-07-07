@@ -240,46 +240,29 @@ text-align: center;
 .title h1 {
   text-align:center;
 }
-.portfoliocontent {
-  display:grid;
-  grid-template-columns: 400px 400px ;
-  grid-template-rows: auto;
-  padding-top:30px;
-  padding-left: 100px;
-  padding-right: 100px;
-  column-gap:50px;
-  display:flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.portfoliocontent .column1 {
-  grid-column: 1;
-}
-
-.portfoliocontent .column2 {
-  grid-column: 2;
-}
 
 .portfoliocontent {
   display:grid;
-  grid-template-columns: 45% 45% 10%;
+  grid-template-columns: 400px 400px;
   grid-template-rows: auto;
   padding-top:20px;
   column-gap:55px;
   display:flex;
-}
-.portfoliocontent .descriptioncolumn{
-  grid-column:3;
-  margin-right:50px;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
 }
 .portfoliocontent .column1 {
-  grid-column: 2;
+  grid-column: 1;
   margin-left: 50px;
 }
 .portfoliocontent .column2 {
-  grid-column: 1;
+  grid-column: 2;
+  margin-right: 50px;
 }
 
 .overlay {
@@ -550,3 +533,44 @@ textarea {
 }
 
 /* End Contact Me */
+
+/* Portfolio Piece Breakdown */
+
+.foliopieceintro {
+  display:grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 60% 30%;
+  padding-top:10px;
+  column-gap: 80px;
+}
+
+.foliopieceintro .introcolumn1 {
+  grid-column-start:1;
+  padding-left:2%;
+  padding-right:2%;
+  margin-left:10%;
+}
+
+.foliopieceintro .introcolumn2 {
+  display:flex;
+  padding-left:2%;
+  padding-right:2%;
+  margin-right: 10%;
+}
+
+.foliopieceintro ul {
+  display:inline-block;
+  margin-top: 10px;
+}
+.foliopieceintro li {
+  font-size: .75vw;
+  display:inline-block;
+  list-style:none;
+  padding:10px;
+  border-radius: 10px;
+  background: var(--text);
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 5px;
+}
+/* ^ Multiple portfolio pages should be listed here */
