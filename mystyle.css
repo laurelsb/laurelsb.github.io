@@ -513,6 +513,7 @@ object-fit: contain;
   color: #ffffff;
   font-weight: 600;
   line-height: 10px;
+  margin-bottom: 10px;
 }
 .contentforpiece {
   padding-top: 20px;
@@ -526,3 +527,4 @@ object-fit: contain;
 }
 
 /*End Portfolio Close Look*/
+
