@@ -371,6 +371,7 @@ backface-visibility: hidden;
 
 }
 /* End About Me */
+
 /* Contact Me Section */
 
 .contactpage {
@@ -420,65 +421,6 @@ font-size: var(--headingsize);
   80% {transform:rotate(-2deg);}
 }
 
-/*
-.plane {
-  top:200px;
-  position:relative;
-  width:350px;
-  height:auto;
-  max-width: 100%;
-  animation: 5s ease-out 0s 1 slideInFromLeft forwards;
-}
-
-.planewrapper:hover {
-  animation:wiggletime infinite 4s ease-in-out;
-}
-
-@keyframes slideInFromLeft {
-  0% {transform: translateX(100%);
-    translateY(10%);
-    opacity:0%;}
-  10% {opacity:0%;}
-  100% {transform: translateX(0);translateY(0%);
-    opacity:100%;}
-}
-@keyframes wiggletime {
-  0%, 100% {transform:rotate(0deg);}
-  20% {transform:rotate(5deg);}
-  40% {transform:rotate(-10deg);}
-  60% {transform:rotate(3deg);}
-  80% {transform:rotate(-2deg);}
-}
-.containline {
-  align-items: center;
-  justify-content: center;
-  display:flex;
-  min-width:20px;
-  min-height:auto;
-  opacity:85%;
-  margin-right: 10%;
-}
-
-.dotline {
-  width: 100%;
-  height: auto;
-  overflow:visible;
-  fill:none;
-  stroke-linecap:round;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  stroke: var(--highlight);
-  stroke-width: 4;
-  stroke-linejoin: round;
-  top:50px;
-  animation: draw 2s linear  1 forwards;
-}
-  @keyframes draw {
-    from {stroke-dashoffset: 850;}
-to {stroke-dashoffset: 0;}
-}
-
-*/
 .fa, .fa:visited{
   text-decoration: none;
   color:var(--text);
@@ -534,43 +476,53 @@ textarea {
 
 /* End Contact Me */
 
-/* Portfolio Piece Breakdown */
+/*Start Portfolio Close Look*/
 
-.foliopieceintro {
+.pieceintro {
   display:grid;
-  grid-template-columns: 55% 45%;
-  grid-template-rows: 60% 30%;
-  padding-top:10px;
-  column-gap: 80px;
+  grid-template-columns: 40% 60%;
+  padding-top:20px;
 }
-
-.foliopieceintro .introcolumn1 {
-  grid-column-start:1;
-  padding-left:2%;
-  padding-right:2%;
-  margin-left:10%;
+.pieceintro h1 {
+  padding-bottom: 10px;
 }
-
-.foliopieceintro .introcolumn2 {
-  display:flex;
-  padding-left:2%;
-  padding-right:2%;
-  margin-right: 10%;
+.pieceintro p {
+  padding-bottom: 5px;
 }
-
-.foliopieceintro ul {
+.pieceintro .column1 {
+  margin-left:28%;
+  padding-right: 50px;
+object-fit: contain;
+}
+.pieceintro .column2 {
+  align-items: center;
+  justify-content: left;
+  margin-right:16%;
+}
+.pieceintro ul {
   display:inline-block;
-  margin-top: 10px;
+  margin-top: 15px;
 }
-.foliopieceintro li {
-  font-size: .75vw;
+.pieceintro li {
+  font-size:15px;
   display:inline-block;
   list-style:none;
-  padding:10px;
-  border-radius: 10px;
+  padding:15px;
+  border-radius: 15px;
   background: var(--text);
   color: #ffffff;
   font-weight: 600;
-  line-height: 5px;
+  line-height: 10px;
 }
-/* ^ Multiple portfolio pages should be listed here */
+.contentforpiece {
+  padding-top: 20px;
+  padding-bottom:50px;
+  margin-left:11%;
+  margin-right:9%;
+}
+.previewlook {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/*End Portfolio Close Look*/
