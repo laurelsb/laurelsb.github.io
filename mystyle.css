@@ -525,6 +525,19 @@ object-fit: contain;
   padding-top: 20px;
   padding-bottom: 30px;
 }
+.contentforpiece .columnbreakout {
+  display:grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom:20px;
+}
+.columnbreakout .column1 {
+  padding-right: 14px;
+  grid-column-start:1;
+}
+.columnbreakout .column2 {
+  padding-left: 14px;
+}
+
 
 /*End Portfolio Close Look*/
 
