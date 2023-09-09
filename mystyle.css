@@ -538,6 +538,12 @@ object-fit: contain;
   padding-left: 14px;
 }
 
+.contentforpiece video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
 
 /*End Portfolio Close Look*/
 
