@@ -123,6 +123,10 @@ nav ul li a:hover {
   animation: fadein;
   animation-duration:6s;
 }
+.homegraphic {
+margin-bottom: 50px;
+}
+
 .abouttime, .worktime {
   display:inline-block;
   margin-right:10px;
@@ -368,7 +372,7 @@ backface-visibility: hidden;
   border:4px solid var(--highlight);
   z-index:1;
   margin-right: 20%;
-
+margin-bottom: 50px;
 }
 /* End About Me */
 
